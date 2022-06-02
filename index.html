@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="description" content="Hiresity | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="css/master.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+      <link rel="icon" type="image/png" href="img/home.png">
+      <title>Sign Up | Hiresity</title>
+   </head>
+   <body>
+      <section class="container-fluid">
+         <section class="row justify-content-center">
+            <section class="now-image col-xs-10 col-sm-4 col-md-4 col-lg-4">
+               <a href="#">
+                  <img style="padding:10px;width:10rem;" src="img/logo.png" alt="Hresity Logo"/>
+               </a>
+               <h1 class="font-weight-bold">Hire NOW</h1>
+               <img id="boy-x" width="90%" src="img/home.png" alt="Hiresity"> 
+            </section>
+            <section style="padding-right: 0px;padding-left: 0px;" class="col-sm-8 col-md-8 col-lg-8">
+               <form class="form-container">
+                  <h2 class="text-center font-weight-bold">Sign In</h2>
+                  <div class="field">
+                     <input type="email" class="form-control" id="email">
+                     <label>Hiresity ID</label>
+                  </div>
+                  <div class="field">
+                     <input type="password" class="form-control" id="password">
+                     <label>Password</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block font-weight-bold">Sign On</button>
+                  Don't have an account ?
+                  <a class="from-text" href="/login">
+                  Sign Up
+                  </a>
+               </form>
+            </section>
+         </section>
+      </section>
+      <script>
+         document.addEventListener('input', function(event) {
+         if (event.target.nodeName && event.target.nodeName === "INPUT") {
+         if (event.target.value) {
+         event.target.setAttribute('filled', 'true')
+         } else {
+         event.target.removeAttribute('filled')
+         
+         }
+         }
+         })
+      </script>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   </body>
+</html>
+
